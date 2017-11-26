@@ -75,7 +75,7 @@ open_file.close()
 
 
 
-voted_classifier = VoteClassifier(SGDClassifier_classifier,
+voted_classifier = VoteClassifier(MNB_classifier,
                                   LogisticRegression_classifier, 
                                   LinearSVC_classifier) 
 
