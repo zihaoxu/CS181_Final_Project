@@ -68,8 +68,8 @@ LinearSVC_classifier = pickle.load(open_file)
 open_file.close()
 
 
-open_file = open("pickled_algos/SGDC_classifier5k.pickle", "rb")
-SGDClassifier_classifier = pickle.load(open_file)
+open_file = open("pickled_algos/MNB_classifier5k.pickle", "rb")
+MNB_classifier = pickle.load(open_file)
 open_file.close()
 
 
