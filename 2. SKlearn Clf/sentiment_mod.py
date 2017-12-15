@@ -104,8 +104,6 @@ voted_classifier = VoteClassifier(clf_LogisticRegression,
                                   clf_SGDClassifier) 
 
 
-
-
 def sentiment(text):
     return (voted_classifier.predict(vect.transform(text))[0], voted_classifier.confidence(vect.transform(text)))
 
